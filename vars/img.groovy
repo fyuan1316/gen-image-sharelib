@@ -11,7 +11,7 @@ def genPushSh(Map params){
 
 }
 
-def genSh(Map params) String {
+def genSh(Map params) {
     params.script += 'haha'
     return params.script
 }
